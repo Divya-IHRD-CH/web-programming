@@ -1,0 +1,9 @@
+* {
+background-color:black;
+} p {
+text-align: center;
+color: white;
+}
+
+p:hover { color: hotpink;
+}

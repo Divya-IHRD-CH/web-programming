@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>bulb</title>
+</head>
+<body>
+<h1>BULB</h1>
+<button id="onbtn">ON</button>
+<button id="offbtn">OFF</button>
+<img id="light" src="bulb off.jpeg";alt="light off" style="width:400px;height:400px">
+<script>
+	document.getElementById('onbtn').addEventListener('click',function()
+	{
+		document.getElementById('light').src="bulbon.jpg";
+	});
+	
+	document.getElementById('offbtn').addEventListener('click',function(){
+	
+		document.getElementById('light').src="bulb off.jpeg";
+	});
+</script>
+</body>
+</html>
